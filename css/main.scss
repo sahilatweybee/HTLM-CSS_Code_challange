@@ -1,0 +1,120 @@
+:root{
+    --btn-primary-color: rgba(124, 40, 40, 0.87);;
+}
+
+body{
+    margin: 0;
+    padding: .2em;
+    background-color: #f2f2f2;
+}
+
+.container{
+    padding:  0 1em;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact-bar{
+    background-color: rgb(145, 140, 140);
+    size: inherit;
+    padding: .001em;
+    z-index: 999;
+    li{
+        margin: 0em .4em 0em .4em;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    #contact-no{
+        background-color: orange;
+        
+    }
+}
+
+.navbar{
+    display: flex;
+    color: black;
+    
+    .title-container{
+        background-color: var(--btn-primary-color);
+        margin: 0 0 .1em 1em;
+        padding: 0 .5em;
+        height: 5em; 
+    }
+
+    .mobile-menu{
+        width: 1.2em;
+        height: 1.2em;
+        position: absolute;
+        right: 0;
+        margin: 1em 2em 0 0;
+    }
+    .nav-primary{
+        display: none;
+    }  
+}
+
+.title-section{
+    background-color: var(--btn-primary-color);
+    width: inherit;
+    text-decoration: none;
+
+    .container{
+        background-image: url("../images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0em 2em 0em 2em;
+
+        .title{
+            background-color: rgba(0, 0, 0, 0.5);
+
+            p{
+                font-size: 1.6em;
+                font-weight: 100;
+                b{
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
+
+.page-description-section{
+    background-color: white;
+    margin: 0 1.2em;
+
+    .page-sub-title{
+        font-size: 1em;
+        background-color: var(--btn-primary-color);
+        color: white;
+    }
+    
+    .articles{
+        display: inline-block;
+        
+        h6{
+            font-size: 1em;
+            margin-bottom: .5em;
+        }
+        
+        input{
+            margin-top: .5em;
+            background-color: var(--btn-primary-color);
+            color: white;
+        }
+        .righr-col-img{
+            margin: 6em 0;
+        }
+    }
+
+}

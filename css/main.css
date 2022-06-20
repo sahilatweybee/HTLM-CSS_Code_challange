@@ -1,0 +1,109 @@
+:root {
+  --btn-primary-color: rgba(124, 40, 40, 0.87);
+}
+
+body {
+  margin: 0;
+  padding: 0.2em;
+  background-color: #f2f2f2;
+}
+
+.container {
+  padding: 0 1em;
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-bar {
+  background-color: rgb(145, 140, 140);
+  size: inherit;
+  padding: 0.001em;
+  z-index: 999;
+}
+.contact-bar li {
+  margin: 0em 0.4em 0em 0.4em;
+}
+.contact-bar a {
+  color: white;
+  text-decoration: none;
+}
+.contact-bar #contact-no {
+  background-color: orange;
+}
+
+.navbar {
+  display: flex;
+  color: black;
+}
+.navbar .title-container {
+  background-color: var(--btn-primary-color);
+  margin: 0 0 0.1em 1em;
+  padding: 0 0.5em;
+  height: 5em;
+}
+.navbar .mobile-menu {
+  width: 1.2em;
+  height: 1.2em;
+  position: absolute;
+  right: 0;
+  margin: 1em 2em 0 0;
+}
+.navbar .nav-primary {
+  display: none;
+}
+
+.title-section {
+  background-color: var(--btn-primary-color);
+  width: inherit;
+  text-decoration: none;
+}
+.title-section .container {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0em 2em 0em 2em;
+}
+.title-section .container .title {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.title-section .container .title p {
+  font-size: 1.6em;
+  font-weight: 100;
+}
+.title-section .container .title p b {
+  font-weight: 900;
+}
+
+.page-description-section {
+  background-color: white;
+  margin: 0 1.2em;
+}
+.page-description-section .page-sub-title {
+  font-size: 1em;
+  background-color: var(--btn-primary-color);
+  color: white;
+}
+.page-description-section .articles {
+  display: inline-block;
+}
+.page-description-section .articles h6 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+.page-description-section .articles input {
+  margin-top: 0.5em;
+  background-color: var(--btn-primary-color);
+  color: white;
+}
+.page-description-section .articles .righr-col-img {
+  margin: 6em 0;
+}/*# sourceMappingURL=main.css.map */
