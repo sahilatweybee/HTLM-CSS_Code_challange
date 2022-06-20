@@ -1,7 +1,3 @@
-:root {
-  --btn-primary-color: rgba(124, 40, 40, 0.87);
-}
-
 body {
   margin: 0;
   padding: 0.2em;
@@ -16,6 +12,13 @@ body {
 ul {
   list-style: none;
   display: flex;
+}
+
+input {
+  margin-top: 0.5em;
+  background-color: rgba(124, 40, 40, 0.87);
+  color: white;
+  border-radius: 0.1em;
 }
 
 a {
@@ -45,7 +48,7 @@ a {
   color: black;
 }
 .navbar .title-container {
-  background-color: var(--btn-primary-color);
+  background-color: rgba(124, 40, 40, 0.87);
   margin: 0 0 0.1em 1em;
   padding: 0 0.5em;
   height: 5em;
@@ -62,7 +65,7 @@ a {
 }
 
 .title-section {
-  background-color: var(--btn-primary-color);
+  background-color: rgba(124, 40, 40, 0.87);
   width: inherit;
   text-decoration: none;
 }
@@ -88,8 +91,9 @@ a {
   margin: 0 1.2em;
 }
 .page-description-section .page-sub-title {
+  padding: 1px 10px;
   font-size: 1em;
-  background-color: var(--btn-primary-color);
+  background-color: rgba(124, 40, 40, 0.87);
   color: white;
 }
 .page-description-section .articles {
@@ -99,11 +103,47 @@ a {
   font-size: 1em;
   margin-bottom: 0.5em;
 }
-.page-description-section .articles input {
-  margin-top: 0.5em;
-  background-color: var(--btn-primary-color);
-  color: white;
-}
 .page-description-section .articles .righr-col-img {
   margin: 6em 0;
+}
+
+.articles-section {
+  margin: 0 1.2em;
+  background-color: white;
+}
+.articles-section .container {
+  padding: 0 1.2em;
+  display: inline;
+}
+.articles-section .container .article .prj-imgs {
+  display: flex;
+}
+
+.announsement {
+  margin: 0 1.2em;
+  background-color: rgb(220, 252, 252);
+}
+.announsement .container-announce {
+  display: inline-block;
+  margin: 0 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.footer {
+  background-color: darkslategray;
+}
+.footer ul.footer-nav-primary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+  width: m;
+}
+.footer .bottom-contact-bar {
+  text-align: center;
+}
+.footer .bottom-contact-bar img {
+  width: 2.5em;
+  background-color: white;
+  padding: 0.1em;
+  margin: 1em 0.2em;
+  border-radius: 1em;
 }/*# sourceMappingURL=main.css.map */

@@ -1,87 +1,97 @@
-:root{
-    --btn-primary-color: rgba(124, 40, 40, 0.87);;
-}
+$primary_color: rgba(124, 40, 40, 0.87);
 
-body{
+body {
     margin: 0;
     padding: .2em;
     background-color: #f2f2f2;
 }
 
-.container{
-    padding:  0 1em;
+.container {
+    padding: 0 1em;
     display: flex;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
 }
 
-a{
+input {
+    margin: .5em;
+    background-color: $primary_color;
+    color: white;
+    border-radius: .1em;
+}
+
+a {
     color: white;
     text-decoration: none;
 }
 
-.contact-bar{
+.contact-bar {
     background-color: rgb(145, 140, 140);
     size: inherit;
     padding: .001em;
     z-index: 999;
-    li{
+
+    li {
         margin: 0em .4em 0em .4em;
     }
-    a{
+
+    a {
         color: white;
         text-decoration: none;
     }
-    #contact-no{
+
+    #contact-no {
         background-color: orange;
-        
+
     }
 }
 
-.navbar{
+.navbar {
     display: flex;
     color: black;
-    
-    .title-container{
-        background-color: var(--btn-primary-color);
+
+    .title-container {
+        background-color: $primary_color;
         margin: 0 0 .1em 1em;
         padding: 0 .5em;
-        height: 5em; 
+        height: 5em;
     }
 
-    .mobile-menu{
+    .mobile-menu {
         width: 1.2em;
         height: 1.2em;
         position: absolute;
         right: 0;
         margin: 1em 2em 0 0;
     }
-    .nav-primary{
+
+    .nav-primary {
         display: none;
-    }  
+    }
 }
 
-.title-section{
-    background-color: var(--btn-primary-color);
+.title-section {
+    background-color: $primary_color;
     width: inherit;
     text-decoration: none;
 
-    .container{
+    .container {
         background-image: url("../images/background.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0em 2em 0em 2em;
 
-        .title{
+        .title {
             background-color: rgba(0, 0, 0, 0.5);
 
-            p{
+            p {
                 font-size: 1.6em;
                 font-weight: 100;
-                b{
+
+                b {
                     font-weight: 900;
                 }
             }
@@ -89,32 +99,76 @@ a{
     }
 }
 
-.page-description-section{
+.page-description-section {
     background-color: white;
     margin: 0 1.2em;
 
-    .page-sub-title{
+    .page-sub-title {
+        padding: 1px 10px;
         font-size: 1em;
-        background-color: var(--btn-primary-color);
+        background-color: $primary_color;
         color: white;
     }
-    
-    .articles{
+
+    .articles {
         display: inline-block;
-        
-        h6{
+
+        h6 {
             font-size: 1em;
             margin-bottom: .5em;
         }
-        
-        input{
-            margin-top: .5em;
-            background-color: var(--btn-primary-color);
-            color: white;
-        }
-        .righr-col-img{
+
+        .righr-col-img {
             margin: 6em 0;
         }
     }
+}
 
+.articles-section {
+    margin: 0 1.2em;
+    background-color: white;
+    
+
+    .container {
+        padding: 0 1.2em;
+        display: inline;
+
+        .article .prj-imgs {
+            display: flex;
+        }
+    }
+}
+
+.announsement {
+    margin: 0 1.2em;
+    background-color: rgb(220, 252, 252);
+
+    .container-announce {
+        display: inline-block;
+        margin: 0 1.2em;
+
+        margin-bottom: .5em;
+    }
+}
+
+.footer {
+    background-color: darkslategray;
+
+    ul.footer-nav-primary {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+        width: m;
+    }
+
+    .bottom-contact-bar {
+        text-align: center;
+
+        img {
+            width: 2.5em;
+            background-color: white;
+            padding: .1em;
+            margin: 1em .2em;
+            border-radius: 1em;
+        }
+    }
 }
