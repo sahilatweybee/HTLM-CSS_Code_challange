@@ -193,7 +193,7 @@ nav.nav {
   grid-template-columns: repeat(auto-fit, minmax(6em, 6em));
 }
 .footer .bottom-contact-bar {
-  text-align: center;
+  justify-content: center;
   margin-left: 0.2em;
 }
 .footer .bottom-contact-bar img {
