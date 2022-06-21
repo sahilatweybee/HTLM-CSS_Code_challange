@@ -298,6 +298,7 @@ nav.menu-btn {
   }
   .articles-section .container .article .prj-imgs .imgs {
     display: inline;
+    margin: 0 0.5em;
   }
   .articles-section .container .article .prj-imgs .imgs .img {
     width: 8em;
