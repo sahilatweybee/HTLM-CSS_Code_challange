@@ -165,10 +165,11 @@ nav.nav {
 }
 .articles-section .container .article .prj-imgs .imgs {
   display: inline;
+  text-align: center;
 }
 .articles-section .container .article .prj-imgs .imgs .img {
-  width: 8em;
-  height: 5em;
+  width: 18em;
+  height: 15em;
 }
 .articles-section .container .article .prj-imgs .imgs a {
   color: black;
