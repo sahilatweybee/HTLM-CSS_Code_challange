@@ -78,7 +78,7 @@ nav.nav {
   color: black;
 }
 .navbar .title-container {
-  margin: 0 0 0 2em;
+  margin-left: 2em;
   padding: 3em 0.5em 0.3em 0.5em;
   background-color: rgba(124, 40, 40, 0.87);
 }
