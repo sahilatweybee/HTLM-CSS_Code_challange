@@ -184,6 +184,7 @@ nav.nav {
 
         .article .prj-imgs {
             display: flex;
+            flex-direction: column;
             margin: 0 2em;
 
             .img {
@@ -333,11 +334,14 @@ nav.menu-btn {
 
         .article {
             width: 33.3%;
-
-            .prj-imgs .img {
-                width: 4em;
-                height: 3em;
-            }
+            
+            .prj-imgs{
+                flex-direction: row;
+                .img {
+                    width: 4em;
+                    height: 3em;
+                }
+            } 
         }
     }
 

@@ -160,6 +160,7 @@ nav.nav {
 }
 .articles-section .container .article .prj-imgs {
   display: flex;
+  flex-direction: column;
   margin: 0 2em;
 }
 .articles-section .container .article .prj-imgs .img {
@@ -283,6 +284,9 @@ nav.menu-btn {
   }
   .articles-section .container .article {
     width: 33.3%;
+  }
+  .articles-section .container .article .prj-imgs {
+    flex-direction: row;
   }
   .articles-section .container .article .prj-imgs .img {
     width: 4em;
