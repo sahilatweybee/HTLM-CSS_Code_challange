@@ -201,7 +201,7 @@ nav.nav {
 .footer .bottom-nav ul.footer-nav-primary {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 3em));
-  font-size: 1em;
+  font-size: 0.9em;
 }
 .footer .bottom-contact-bar {
   justify-content: space-around;
