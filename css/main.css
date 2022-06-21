@@ -14,14 +14,22 @@ ul {
   display: flex;
 }
 
-input {
-  margin: 0.5em;
-  height: 2.5em;
+.input {
+  margin: 0.5em 0;
+  height: 2em;
   background-color: rgba(124, 40, 40, 0.87);
   color: white;
   border-radius: 0.1em;
+  display: inline-flex;
+  padding: 0.5em 0.5em 0 0.5em;
+  border-radius: 0.5em;
 }
-input:hover {
+.input img {
+  height: 1.2em;
+  width: 1.2em;
+  margin-left: 0.2em;
+}
+.input:hover {
   cursor: pointer;
   font-weight: bold;
 }
@@ -154,6 +162,10 @@ nav.nav {
   display: flex;
   margin: 0 2em;
 }
+.articles-section .container .article .prj-imgs .img {
+  width: 13em;
+  height: 8em;
+}
 .articles-section .container .article-txt {
   margin: 0 2em;
 }
@@ -245,7 +257,7 @@ nav.menu-btn {
   cursor: pointer;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 775px) {
   .page-description-section {
     font-size: 1.2em;
   }
@@ -271,6 +283,10 @@ nav.menu-btn {
   }
   .articles-section .container .article {
     width: 33.3%;
+  }
+  .articles-section .container .article .prj-imgs .img {
+    width: 4em;
+    height: 3em;
   }
 
   .footer .contact-department ul.departments {
@@ -326,5 +342,10 @@ nav.menu-btn {
   .navbar .nav ul li #current {
     background-color: orange;
     color: white;
+  }
+
+  .articles-section .container .article .prj-imgs .img {
+    width: 8em;
+    height: 6em;
   }
 }/*# sourceMappingURL=main.css.map */
