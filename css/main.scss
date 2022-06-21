@@ -187,14 +187,22 @@ nav.nav {
             flex-direction: column;
             margin: 0 2em;
 
-            .img {
-                width: 13em;
-                height: 8em;
+            .imgs{
+                display: inline;
+                .img {
+                    width: 8em;
+                    height: 5em;
+                }
+                a{
+                    color: black;
+                    display: block;
+                }
             }
         }
 
         .article-txt {
             margin: 0 2em;
+            padding: 0;
         }
     }
 }
@@ -302,7 +310,7 @@ nav.menu-btn {
     }
 }
 
-@media screen and (min-width: 775px) {
+@media screen and (min-width: 790px) {
 
 
     .page-description-section {
@@ -329,21 +337,7 @@ nav.menu-btn {
         }
     }
 
-    .articles-section .container {
-        display: flex;
-
-        .article {
-            width: 33.3%;
-            
-            .prj-imgs{
-                flex-direction: row;
-                .img {
-                    width: 4em;
-                    height: 3em;
-                }
-            } 
-        }
-    }
+    
 
     .footer {
         .contact-department {
@@ -415,12 +409,16 @@ nav.menu-btn {
     }
 
     .articles-section .container{
-
+        display: flex;
         .article {
-            .prj-imgs .img {
-                width: 8em;
-                height: 6em;
-            }
+            width: 33.3%;
+            .prj-imgs{
+                flex-direction: row;
+                .img {
+                    width: 8em;
+                    height: 6em;
+                }
+            } 
         }
     }
 }
