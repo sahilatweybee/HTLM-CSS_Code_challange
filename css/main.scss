@@ -206,28 +206,28 @@ nav.nav {
     .container-announce {
         display: inline-block;
         margin: 0 2em;
-
         margin-bottom: 0.5em;
     }
 }
 
 .footer {
     background-color: darkslategray;
-    justify-content: center;
+    justify-content: space-evenly;
 
     .bottom-nav {
-        width: 27%;
+        width: 20%;
         margin: 0;
 
         ul.footer-nav-primary {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(6em, 6em));
+            grid-template-columns: repeat(auto-fit, minmax(6em, 3em));
+            font-size: 1em;
         }
     }
 
     .bottom-contact-bar {
-        justify-content: center;
-        margin-left: .2em;
+        justify-content: space-around;
+        margin-left: 2em;
 
         img {
             width: 2.5em;
