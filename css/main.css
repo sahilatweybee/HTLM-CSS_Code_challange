@@ -168,8 +168,8 @@ nav.nav {
   text-align: center;
 }
 .articles-section .container .article .prj-imgs .imgs .img {
-  width: 18em;
-  height: 15em;
+  width: 8em;
+  height: 5em;
 }
 .articles-section .container .article .prj-imgs .imgs a {
   color: black;
@@ -237,7 +237,7 @@ nav.menu-btn {
   z-index: 999;
   width: 40%;
   height: 95%;
-  right: 1em;
+  right: 0.5em;
   background-color: rgba(124, 40, 40, 0.87);
   color: white;
   height: 100vh;
@@ -245,8 +245,9 @@ nav.menu-btn {
 }
 .nav ul.nav-primary {
   margin-right: 0;
-  margin-top: 5em;
+  margin-top: 6em;
   display: block;
+  text-align: right;
 }
 .nav li a {
   color: white;
@@ -255,6 +256,7 @@ nav.menu-btn {
   padding: 0.5em;
   font-size: 1.3em;
   text-align: right;
+  font-size: 0.8em;
   cursor: pointer;
 }
 .nav li a:hover {
@@ -268,7 +270,7 @@ nav.menu-btn {
   cursor: pointer;
 }
 
-@media screen and (min-width: 790px) {
+@media screen and (min-width: 690px) {
   .page-description-section {
     font-size: 1.2em;
   }
@@ -287,6 +289,23 @@ nav.menu-btn {
   .page-description-section .articles .right-col-img .working-person {
     height: 240px;
     width: 350px;
+  }
+
+  .articles-section .container .article .prj-imgs {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2em;
+  }
+  .articles-section .container .article .prj-imgs .imgs {
+    display: inline;
+  }
+  .articles-section .container .article .prj-imgs .imgs .img {
+    width: 8em;
+    height: 5em;
+  }
+  .articles-section .container .article .prj-imgs .imgs a {
+    color: black;
+    display: block;
   }
 
   .footer .contact-department ul.departments {
@@ -350,11 +369,11 @@ nav.menu-btn {
   .articles-section .container .article {
     width: 33.3%;
   }
-  .articles-section .container .article .prj-imgs {
+  .articles-section .container .article .prj-imgs .imgs {
     flex-direction: row;
   }
-  .articles-section .container .article .prj-imgs .img {
+  .articles-section .container .article .prj-imgs .imgs .img {
     width: 8em;
-    height: 6em;
+    height: 5em;
   }
 }/*# sourceMappingURL=main.css.map */

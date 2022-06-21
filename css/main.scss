@@ -99,7 +99,6 @@ nav.nav {
         padding: 3em .5em .3em .5em;
         background-color: $primary_color;
 
-
         .title-nav {
             background-color: $primary_color;
             margin-top: 3em;
@@ -191,8 +190,8 @@ nav.nav {
                 display: inline;
                 text-align: center;
                 .img {
-                    width: 18em;
-                    height: 15em;
+                    width: 8em;
+                    height: 5em;
                 }
                 a{
                     color: black;
@@ -273,7 +272,7 @@ nav.menu-btn {
     z-index: 999;
     width: 40%;
     height: 95%;
-    right: 1em;
+    right: .5em;
     background-color: $primary_color;
     color: white;
     height: 100vh;
@@ -281,8 +280,10 @@ nav.menu-btn {
 
     ul.nav-primary {
         margin-right: 0;
-        margin-top: 5em;
+        margin-top: 6em;
         display: block;
+        text-align: right;
+        
 
     }
 
@@ -294,6 +295,7 @@ nav.menu-btn {
             padding: .5em;
             font-size: 1.3em;
             text-align: right;
+            font-size: .8em;
             cursor: pointer;
 
             &:hover {
@@ -311,7 +313,7 @@ nav.menu-btn {
     }
 }
 
-@media screen and (min-width: 790px) {
+@media screen and (min-width: 690px) {
 
 
     .page-description-section {
@@ -333,6 +335,26 @@ nav.menu-btn {
                 .working-person {
                     height: 240px;
                     width: 350px;
+                }
+            }
+        }
+    }
+
+    .articles-section .container{
+        .article .prj-imgs {
+            display: flex;
+            flex-direction: row;
+            margin: 0 2em;
+
+            .imgs{
+                display: inline;
+                .img {
+                    width: 8em;
+                    height: 5em;
+                }
+                a{
+                    color: black;
+                    display: block;
                 }
             }
         }
@@ -413,11 +435,11 @@ nav.menu-btn {
         display: flex;
         .article {
             width: 33.3%;
-            .prj-imgs{
+            .prj-imgs .imgs{
                 flex-direction: row;
                 .img {
                     width: 8em;
-                    height: 6em;
+                    height: 5em;
                 }
             } 
         }
