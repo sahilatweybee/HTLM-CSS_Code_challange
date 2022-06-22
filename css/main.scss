@@ -249,7 +249,7 @@ nav.nav {
         }
 
         .bottom-contact-bar {
-            // justify-content: space-around;
+            justify-content: space-around;
             display: inline;
 
             img {
@@ -496,7 +496,7 @@ nav.menu-btn {
 
                 ul.footer-nav-primary {
                     display: grid;
-                    grid-template-columns: repeat(auto-fit, minmax(min-width, 6em));
+                    grid-template-columns: repeat(auto-fit, minmax(6em, 6em));
                     font-size: .9em;
                 }
             }

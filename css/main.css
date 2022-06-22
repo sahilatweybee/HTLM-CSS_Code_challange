@@ -214,6 +214,7 @@ nav.nav {
   margin-top: 0.1em;
 }
 .footer .container .bottom-contact-bar {
+  justify-content: space-around;
   display: inline;
 }
 .footer .container .bottom-contact-bar img {
@@ -411,7 +412,7 @@ nav.menu-btn {
   }
   .footer .container .bottom-nav ul.footer-nav-primary {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min-width, 6em));
+    grid-template-columns: repeat(auto-fit, minmax(6em, 6em));
     font-size: 0.9em;
   }
   .footer .container .bottom-contact-bar {
