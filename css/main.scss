@@ -269,6 +269,7 @@ nav.nav {
         ul {
             display: grid;
             grid-template-columns: 50% 50%;
+
             li {
                 display: block;
                 text-align: left;
@@ -387,15 +388,19 @@ nav.menu-btn {
 
         .footer {
             .contact-department {
-                ul.departments {
+                div {
                     display: flex;
-                    flex-direction: row;
-                    justify-content: center;
+                    ul.departments {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
 
-                    li {
-                        text-align: left;
-                        margin: .1em;
-                        padding: 0 .5em;
+                        li {
+                            display: block;
+                            text-align: left;
+                            margin: .1em;
+                            padding: 0 .5em;
+                        }
                     }
                 }
             }
@@ -465,8 +470,10 @@ nav.menu-btn {
             .prj-imgs {
                 display: flex;
                 flex-direction: row;
+
                 .imgs {
                     margin: .5em;
+
                     .img {
                         width: 8em;
                         height: 5em;
@@ -475,11 +482,12 @@ nav.menu-btn {
             }
         }
 
-        
+
 
         .footer {
             .container {
                 display: flex;
+
                 .bottom-nav {
                     width: 20%;
                     margin: 0;
@@ -487,7 +495,7 @@ nav.menu-btn {
 
                     ul.footer-nav-primary {
                         display: grid;
-                        grid-template-columns: repeat(auto-fit, minmax(6em, 6em));
+                        grid-template-columns: repeat(auto-fit, minmax(min-width, 6em));
                         font-size: .9em;
                     }
                 }

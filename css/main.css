@@ -321,12 +321,16 @@ nav.menu-btn {
     color: black;
     display: block;
   }
-  .articles-section .footer .contact-department ul.departments {
+  .articles-section .footer .contact-department div {
+    display: flex;
+  }
+  .articles-section .footer .contact-department div ul.departments {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-  .articles-section .footer .contact-department ul.departments li {
+  .articles-section .footer .contact-department div ul.departments li {
+    display: block;
     text-align: left;
     margin: 0.1em;
     padding: 0 0.5em;
@@ -405,7 +409,7 @@ nav.menu-btn {
   }
   .footer .container .bottom-nav ul.footer-nav-primary {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(6em, 6em));
+    grid-template-columns: repeat(auto-fit, minmax(min-width, 6em));
     font-size: 0.9em;
   }
   .footer .container .bottom-contact-bar {
