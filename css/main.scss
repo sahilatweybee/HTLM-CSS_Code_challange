@@ -249,7 +249,8 @@ nav.nav {
         }
 
         .bottom-contact-bar {
-            justify-content: space-around;
+            // justify-content: space-around;
+            display: inline;
 
             img {
                 width: 2.5em;
@@ -264,13 +265,12 @@ nav.nav {
     .contact-department {
         text-align: center;
         color: white;
-        align-items: center;
 
-        ul.departments {
+        ul {
             display: grid;
             grid-template-columns: 50% 50%;
-
             li {
+                display: block;
                 text-align: left;
                 margin: .1em;
                 padding: 0 2em 0 2em;
@@ -389,6 +389,7 @@ nav.menu-btn {
             .contact-department {
                 ul.departments {
                     display: flex;
+                    flex-direction: row;
                     justify-content: center;
 
                     li {
@@ -474,22 +475,11 @@ nav.menu-btn {
             }
         }
 
-        .bottom-nav {
-            width: 27%;
-            margin: 0;
-            padding: 0;
-
-            ul.footer-nav-primary {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(6em, 3em));
-                font-size: .9em;
-            }
-        }
+        
 
         .footer {
             .container {
                 display: flex;
-
                 .bottom-nav {
                     width: 20%;
                     margin: 0;
