@@ -196,6 +196,7 @@ nav.nav {
 .footer {
   background-color: darkslategray;
   justify-content: center;
+  text-align: center;
 }
 .footer .container {
   display: block;
@@ -206,6 +207,7 @@ nav.nav {
   margin-top: 1em;
 }
 .footer .container .bottom-nav ul.footer-nav-primary {
+  justify-content: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 6em));
   font-size: 0.9em;
@@ -214,8 +216,8 @@ nav.nav {
   margin-top: 0.1em;
 }
 .footer .container .bottom-contact-bar {
-  justify-content: space-around;
-  display: inline;
+  display: flexbox;
+  justify-content: center;
 }
 .footer .container .bottom-contact-bar img {
   width: 2.5em;
