@@ -395,6 +395,7 @@ nav.menu-btn {
   .articles-section .container .prj-imgs {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
   .articles-section .container .prj-imgs .imgs {
     margin: 0.5em;

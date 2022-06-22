@@ -303,7 +303,6 @@ nav.menu-btn {
         display: block;
         text-align: right;
 
-
     }
 
     li {
@@ -473,6 +472,7 @@ nav.menu-btn {
         .prj-imgs {
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
 
             .imgs {
                 margin: .5em;
